@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/turquoise"
+    tools:context=".AccueilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/accueil_background"
+        android:layout_width="410dp"
+        android:layout_height="641dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="112dp"
+        android:src="@drawable/accueil_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ExtraText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/bouton_recherche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="@color/Rose"
+        android:onClick="goToRechercheFragment"
+        android:text="Recherche   >"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/accueil_background"
+        app:layout_constraintEnd_toEndOf="@+id/accueil_background"
+        app:layout_constraintStart_toStartOf="@+id/accueil_background"
+        app:layout_constraintTop_toTopOf="@+id/accueil_background" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"></RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox_accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="208dp"
+        app:layout_constraintBottom_toBottomOf="@+id/accueil_background"
+        app:layout_constraintEnd_toEndOf="@+id/accueil_background"
+        app:layout_constraintStart_toStartOf="@+id/accueil_background"
+        app:layout_constraintTop_toTopOf="@+id/accueil_background"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox2_accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="179dp"
+        app:layout_constraintBottom_toBottomOf="@+id/accueil_background"
+        app:layout_constraintEnd_toEndOf="@+id/accueil_background"
+        app:layout_constraintStart_toStartOf="@+id/accueil_background"
+        app:layout_constraintTop_toTopOf="@+id/accueil_background"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/NatureBesoin"
+        android:layout_width="164dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="329dp"
+        android:background="@android:color/background_light"
+        android:hint="Nature du besoin"
+        android:padding="8dp"
+        android:textColorHint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="@+id/accueil_background"
+        app:layout_constraintEnd_toEndOf="@+id/accueil_background"
+        app:layout_constraintStart_toStartOf="@+id/accueil_background"
+        app:layout_constraintTop_toTopOf="@+id/accueil_background"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/Localisation"
+        android:layout_width="164dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="325dp"
+        android:background="@android:color/background_light"
+        android:hint="Localisation"
+        android:padding="8dp"
+        android:textColorHint="#A9A9A9"
+        app:layout_constraintBottom_toBottomOf="@+id/accueil_background"
+        app:layout_constraintEnd_toEndOf="@+id/accueil_background"
+        app:layout_constraintStart_toStartOf="@+id/accueil_background"
+        app:layout_constraintTop_toTopOf="@+id/accueil_background"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnParametre"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:backgroundTint="@color/transparente"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

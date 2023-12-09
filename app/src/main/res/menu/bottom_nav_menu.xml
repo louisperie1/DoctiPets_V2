@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_Accueil"
+        android:icon="@drawable/boutonaccueil"
+        android:title="Accueil" />
+    <item
+        android:id="@+id/menu_Rdv"
+        android:icon="@drawable/boutonrdv"
+        android:title="RDV" />
+    <item
+        android:id="@+id/menu_Actualites"
+        android:icon="@drawable/boutonactualites"
+        android:title="Actualités" />
+    <item
+        android:id="@+id/menu_Urgences"
+        android:icon="@drawable/boutonurgences"
+        android:title="Urgences" />
+    <item
+        android:id="@+id/menu_Compte"
+        android:icon="@drawable/boutoncompte"
+        android:title="Compte" />
+</menu>
